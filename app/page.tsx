@@ -57,10 +57,7 @@ const Home = () => {
                 href="https://github.com/403unlocker/best403unlocker"
                 target="_blank"
               >
-                <div
-                  className="bg-teal-400 rounded shadow-lg m-auto my-2  md:m-5 transition transform hover:-translate-y-3 text-center py-10"
-                  style={{ width: "400px" }}
-                >
+                <div className="bg-teal-400 rounded shadow-lg m-auto my-2 md:m-5 transition transform hover:-translate-y-3 text-center py-10 w-[300px] md:w-[400px]">
                   <Image
                     src={FirstIcon}
                     alt="best403unlocker"
@@ -75,10 +72,7 @@ const Home = () => {
                 href="https://github.com/403unlocker/fastDocker403unlocker"
                 target="_blank"
               >
-                <div
-                  className="bg-teal-400 rounded shadow-lg m-auto my-2 md:m-5 transition transform hover:-translate-y-3 text-center py-10"
-                  style={{ width: "400px" }}
-                >
+                <div className="bg-teal-400 rounded shadow-lg m-auto my-2 md:m-5 transition transform hover:-translate-y-3 text-center py-10 w-[300px] md:w-[400px]">
                   <Image
                     src={RocketIcon}
                     alt="fastDocker403unlocker"
@@ -107,7 +101,7 @@ const Home = () => {
                     href="https://github.com/403unlocker/best403unlocker"
                     target="_blank"
                   >
-                    <h2 className="pt-5 text-black font-black text-4xl">
+                    <h2 className="pt-5 text-black font-black md:text-4xl text-2xl">
                       best403Unlocker
                     </h2>
                   </Link>
@@ -149,7 +143,7 @@ const Home = () => {
                     href="https://github.com/403unlocker/fastDocker403unlocker"
                     target="_blank"
                   >
-                    <h2 className="pt-5 text-[#2dd4bf] font-black text-4xl">
+                    <h2 className="pt-5 text-[#2dd4bf] font-black md:text-4xl text-2xl">
                       fastDocker403unlocker
                     </h2>
                   </Link>
