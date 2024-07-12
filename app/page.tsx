@@ -46,10 +46,10 @@ const Home = () => {
           <div className="container mx-auto">
             <div className="py-5">
               <h1 className="text-teal-500 text-xl font-medium">
-                چی کار میکنیم حالا
+                چی کار کردیم حالا
               </h1>
               <h2 className="pt-2 text-slate-300 font-black text-5xl">
-                سرویس های ما
+                ابزار های ما
               </h2>
             </div>
             <div className="flex flex-col md:flex-row justify-center md:justify-around">
