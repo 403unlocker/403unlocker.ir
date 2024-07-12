@@ -14,6 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html dir="rtl">
+      <head>
+        <link rel="icon" href="/assets/imgs/favicon.png" />
+      </head>
       <body>{children}</body>
     </html>
   );
