@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ImgWorkInDesk from "@/public/assets/imgs/ImgWorkInDesk.png";
 import Best403 from "@/public/assets/imgs/Best403.jpg";
+import SimpleLogo from "@/public/assets/imgs/logo.jpg";
 import FastDocker403 from "@/public/assets/imgs/FastDocker403.jpg";
 import RocketIcon from "@/public/assets/imgs/RocketIcon.png";
 import FirstIcon from "@/public/assets/imgs/FirstIcon.png";
@@ -11,29 +12,31 @@ const Home = () => {
     <div className="relative overflow-hidden">
       <div className="relative bg-black text-white overflow-hidden">
         <div className="pt-5 text-center">
-          <div className="container mx-auto">
-            <div className="m-7 grid grid-cols-1 md:grid-cols-2 text-right">
+          <div className="max-w-6xl mx-auto">
+            <div className="m-7 grid grid-cols-1 md:grid-cols-2 text-right content-center">
               <div className="flex items-center">
-                <div>
-                  <h1 className="text-slate-500 text-xl font-medium">
-                    با ابزار های 403unlocker پرسرعت ترین راه حل برای دور زدن
-                    تحریم های اینترنتی پیدا کن
-                  </h1>
+                <div className="space-y-4">
                   <Link href="https://github.com/403unlocker" target="_blank">
-                    <h2 className="pt-5 text-slate-300 font-black text-5xl">
-                      403Unlocker
-                    </h2>
+                    <h1 className="flex flex-col items-start md:flex-row md:items-center pt-5 text-slate-300 font-black text-5xl gap-3">
+                      <span>403Unlocker</span>
+                      <span className="hidden md:inline-block">|</span>
+                      <span className="text-base md:max-w-[20ch] ">
+                        وقت تو با ارزشه، دور زدن تحریم رو بسپار به ابزارها
+                      </span>
+                    </h1>
                   </Link>
-                  <p className="text-slate-200 text-xl font-medium pt-4">
-                    وقت تو با ارزشه ، دور زدن تحریم رو بسپار به ابزارها
-                  </p>
+                  <h2 className="text-slate-500 leading-8 md:max-w-lg text-xl font-medium">
+                    با ابزار های 403Unlocker پرسرعت ترین راه حل برای دور زدن
+                    تحریم های اینترنتی پیدا کن
+                  </h2>
                 </div>
               </div>
-              <div className="text-center m-5">
+              <div className="text-center">
                 <Image
-                  src={ImgWorkInDesk}
+                  priority
+                  src={SimpleLogo}
                   alt="home-page-image"
-                  className="m-auto"
+                  className="w-full max-w-sm ml-auto mr-auto md:ml-0 mb-8"
                 />
               </div>
             </div>
@@ -43,7 +46,7 @@ const Home = () => {
 
       <div className="relative bg-[#101010] text-white overflow-hidden">
         <div className="py-12 text-center">
-          <div className="container mx-auto">
+          <div className="max-w-6xl mx-auto">
             <div className="py-5">
               <h1 className="text-teal-500 text-xl font-medium">
                 چی کار کردیم حالا
@@ -93,7 +96,7 @@ const Home = () => {
         id="best403Unlocker"
       >
         <div className="py-5 text-center">
-          <div className="container mx-auto">
+          <div className="max-w-6xl mx-auto">
             <div className="m-7 grid grid-cols-1 md:grid-cols-2">
               <div className="flex items-center justify-center md:justify-end">
                 <div className=" text-right">
@@ -128,7 +131,7 @@ const Home = () => {
         id="check403Unlocker"
       >
         <div className="py-5 text-center">
-          <div className="container mx-auto">
+          <div className="max-w-6xl mx-auto">
             <div className="m-7 grid grid-cols-1 md:grid-cols-2">
               <div className="text-center m-5">
                 <Image
