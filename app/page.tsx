@@ -21,27 +21,27 @@ const Home = () => {
           <div className="pt-5 text-center">
             <div className="max-w-6xl mx-auto">
               <div className="m-7 grid grid-cols-1 md:grid-cols-2 text-right content-center">
-                <div className="flex items-center">
+                <div className="flex items-center order-2 md:order-1">
                   <div className="space-y-4">
-                    <h1 className="flex flex-col items-start md:flex-row md:items-center pt-5 text-slate-300 font-black text-5xl gap-3">
+                    <h1 className="flex flex-col text-center md:text-start items-center md:flex-row pt-5 text-slate-300 font-black text-5xl gap-3">
                       <span>403Unlocker</span>
                       <span className="hidden md:inline-block">|</span>
                       <span className="text-base md:max-w-[20ch] ">
                         وقت تو با ارزشه، دور زدن تحریم رو بسپار به ابزارها
                       </span>
                     </h1>
-                    <h2 className="text-slate-500 leading-8 md:max-w-lg text-xl font-medium">
+                    <h2 className="text-slate-500 text-center md:text-start leading-8 md:max-w-lg text-xl font-medium">
                       با ابزار های 403Unlocker پرسرعت ترین راه حل برای دور زدن
                       تحریم های اینترنتی پیدا کن
                     </h2>
                   </div>
                 </div>
-                <div className="text-center">
+                <div className="text-center order-1 md:order-2">
                   <Image
                     priority
                     src={SimpleLogo}
                     alt="home-page-image"
-                    className="w-full max-w-sm ml-auto mr-auto md:ml-0 mb-8"
+                    className="w-full pl-8 max-w-sm ml-auto mr-auto md:ml-0 mb-8"
                   />
                 </div>
               </div>
@@ -115,7 +115,7 @@ const Home = () => {
           <div className="py-5 text-center">
             <div className="max-w-6xl mx-auto">
               <div className="m-7 grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="flex items-center justify-center md:justify-end">
+                <div className="flex items-center justify-center md:justify-end order-2 md:order-1">
                   <div className=" text-right">
                     <Link
                       href="https://github.com/403unlocker/best403unlocker"
@@ -131,7 +131,7 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
-                <div className="text-center">
+                <div className="text-center order-1 md:order-2">
                   <Image
                     src={Best403}
                     alt="best403unlocker"
