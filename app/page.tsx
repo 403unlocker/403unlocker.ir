@@ -2,9 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import GithubIcon from "@/shared/icons/GithubIcon";
 import Best403 from "@/public/assets/imgs/Best403.jpg";
+import Check403Desk from "@/public/assets/imgs/Check403Desk.png";
 import SimpleLogo from "@/public/assets/imgs/logo.jpg";
 import FastDocker403 from "@/public/assets/imgs/FastDocker403.jpg";
 import RocketIcon from "@/public/assets/imgs/RocketIcon.png";
+import checkIcon from "@/public/assets/imgs/check403.png";
 import FirstIcon from "@/public/assets/imgs/FirstIcon.png";
 import ArrowTopLeft from "@/shared/icons/ArrowTopLeft";
 import { Fragment } from "react";
@@ -60,7 +62,27 @@ const Home = () => {
                   ابزار های ما
                 </h2>
               </div>
-              <div className="flex flex-col md:flex-row justify-center md:justify-around">
+              <div className="flex flex-col md:flex-row justify-center">
+                <Link
+                  href="https://github.com/403unlocker/check403unlocker-be"
+                  target="_blank">
+                  <div className="relative bg-teal-400 rounded shadow-lg m-auto my-2 md:m-5 transition transform hover:-translate-y-3 text-center py-10 w-[300px] md:w-[400px]">
+                    <ArrowTopLeft className="text-[#101010] size-6 absolute top-4 left-4" />
+                    <Image
+                      src={checkIcon}
+                      alt="check403unlocker"
+                      className="m-auto mb-4"
+                    />
+                    <div className="text-[#101010] px-6 space-y-1">
+                      <h3 className="font-medium text-2xl">check403unlocker</h3>
+                      <p className="leading-7">
+                        اگه نمیدونی وبسایتی که تو مرورگرت بازه رو با چه DNS
+                        میتونی بازش کنی کافیه این extension رو توی مرورگرت داشته
+                        باشی و DNS مورد نظر رو پیدا کنی.
+                      </p>
+                    </div>
+                  </div>
+                </Link>
                 <Link
                   href="https://github.com/403unlocker/best403unlocker"
                   target="_blank">
@@ -172,6 +194,40 @@ const Home = () => {
                       براشون عذابه...
                     </p>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="relative bg-[#2dd4bf] text-white overflow-hidden"
+          id="check403unlocker">
+          <div className="py-5 text-center">
+            <div className="max-w-6xl mx-auto">
+              <div className="m-7 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="flex items-center justify-center md:justify-end order-2 md:order-1">
+                  <div className=" text-right">
+                    <Link
+                      href="https://github.com/403unlocker/check403unlocker"
+                      target="_blank">
+                      <h3 className="pt-5 text-black font-black md:text-4xl text-2xl">
+                        <span>check403unlocker </span>
+                        <ArrowTopLeft className="size-6 mb-2 inline-block" />
+                      </h3>
+                    </Link>
+                    <p className="text-gray-800 leading-9 text-xl font-medium pt-4">
+                      فقط کافیه extension و سایت تحریمی مورد نظرت رو باز کنی با
+                      بهت بگم کی میتونه بازش کنه
+                    </p>
+                  </div>
+                </div>
+                <div className="text-center order-1 md:order-2">
+                  <Image
+                    src={Check403Desk}
+                    alt="check403unlocker"
+                    className="m-auto rounded-lg"
+                  />
                 </div>
               </div>
             </div>
