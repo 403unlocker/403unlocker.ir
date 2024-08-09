@@ -8,7 +8,9 @@ import FastDocker403 from "@/public/assets/imgs/FastDocker403.jpg";
 import RocketIcon from "@/public/assets/imgs/RocketIcon.png";
 import checkIcon from "@/public/assets/imgs/check403.png";
 import FirstIcon from "@/public/assets/imgs/FirstIcon.png";
+import ganjeLogo from "@/public/assets/imgs/sponsor-ganje.webp";
 import ArrowTopLeft from "@/shared/icons/ArrowTopLeft";
+
 import { Fragment } from "react";
 
 const Home = () => {
@@ -132,7 +134,7 @@ const Home = () => {
         </div>
 
         <div
-          className="relative bg-[#2dd4bf] text-white overflow-hidden"
+          className="relative bg-[#2dd4bf] text-white overflow-hidden md:h-[500px] h-auto flex items-center justify-center"
           id="best403Unlocker">
           <div className="py-5 text-center">
             <div className="max-w-6xl mx-auto">
@@ -166,7 +168,7 @@ const Home = () => {
         </div>
 
         <div
-          className="relative bg-black text-white overflow-hidden"
+          className="relative bg-black text-white overflow-hidden md:h-[500px] h-auto flex items-center justify-center"
           id="check403Unlocker">
           <div className="py-5 text-center">
             <div className="max-w-6xl mx-auto">
@@ -201,7 +203,7 @@ const Home = () => {
         </div>
 
         <div
-          className="relative bg-[#2dd4bf] text-white overflow-hidden"
+          className="relative bg-[#2dd4bf] text-white overflow-hidden h-auto flex items-center justify-center"
           id="check403unlocker">
           <div className="py-5 text-center">
             <div className="max-w-6xl mx-auto">
@@ -230,6 +232,23 @@ const Home = () => {
                   />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="relative bg-black text-white overflow-hidden h-auto flex items-center justify-center"
+          id="check403Unlocker">
+          <div className="py-5 text-center">
+            <div className="m-7">
+              <p className="text-5xl text-[#2dd4bf] py-2">اسپانسرها</p>
+              <a href="https://ganje.host/" target="_blanck">
+                <Image
+                  src={ganjeLogo}
+                  alt="ganjeLogo"
+                  className="m-auto rounded-lg w-[30rem]"
+                />
+              </a>
             </div>
           </div>
         </div>
