@@ -6,7 +6,7 @@ import Check403Desk from "@/public/assets/imgs/Check403Desk.png";
 import SimpleLogo from "@/public/assets/imgs/logo.jpg";
 import FastDocker403 from "@/public/assets/imgs/FastDocker403.jpg";
 import RocketIcon from "@/public/assets/imgs/RocketIcon.png";
-import checkIcon from "@/public/assets/imgs/check403.png";
+import checkIcon from "@/public/assets/imgs/Check403.png";
 import FirstIcon from "@/public/assets/imgs/FirstIcon.png";
 import ganjeLogo from "@/public/assets/imgs/sponsor-ganje.webp";
 import ArrowTopLeft from "@/shared/icons/ArrowTopLeft";
