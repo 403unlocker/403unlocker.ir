@@ -242,7 +242,7 @@ const Home = () => {
           <div className="py-5 text-center">
             <div className="m-7">
               <p className="text-5xl text-[#2dd4bf] py-2">اسپانسرها</p>
-              <a href="https://ganje.host/" target="_blanck">
+              <a href="https://ganje.host/go/403unlocker" target="_blanck">
                 <Image
                   src={ganjeLogo}
                   alt="ganjeLogo"
