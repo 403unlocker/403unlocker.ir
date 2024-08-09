@@ -219,8 +219,8 @@ const Home = () => {
                       </h3>
                     </Link>
                     <p className="text-gray-800 leading-9 text-xl font-medium pt-4">
-                      فقط کافیه extension و سایت تحریمی مورد نظرت رو باز کنی با
-                      بهت بگم کی میتونه بازش کنه
+                      فقط کافیه extension و سایت تحریمی مورد نظرت رو باز کنی تا
+                      بهت بگه کدوم DNS میتونه تحریم این سایت رو دور بزنه
                     </p>
                   </div>
                 </div>
