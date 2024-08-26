@@ -210,9 +210,7 @@ const Home = () => {
               <div className="m-7 grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="flex items-center justify-center md:justify-end order-2 md:order-1">
                   <div className=" text-right">
-                    <Link
-                      href="https://github.com/403unlocker/check403unlocker-ext"
-                      target="_blank">
+                    <Link href="https://github.com/403unlocker/check403unlocker-ext">
                       <h3 className="pt-5 text-black font-black md:text-4xl text-2xl">
                         <span>check403unlocker </span>
                         <ArrowTopLeft className="size-6 mb-2 inline-block" />
@@ -221,6 +219,18 @@ const Home = () => {
                     <p className="text-gray-800 leading-9 text-xl font-medium pt-4">
                       فقط کافیه extension و سایت تحریمی مورد نظرت رو باز کنی تا
                       بهت بگه کدوم DNS میتونه تحریم این سایت رو دور بزنه
+                    </p>
+                    <p className="text-gray-800 leading-9 text-xl font-medium pt-4">
+                      برای دانلود روی{" "}
+                      <Link
+                        href={
+                          "https://chromewebstore.google.com/detail/check403unlocker/elmlgegphdbjnofpobhkinmjnofkdmne"
+                        }
+                        target="_blank"
+                        className="text-blue-500">
+                        لینک
+                      </Link>{" "}
+                      کلیک کن
                     </p>
                   </div>
                 </div>
