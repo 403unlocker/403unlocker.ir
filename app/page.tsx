@@ -219,8 +219,8 @@ const Home = () => {
                       </h3>
                     </Link>
                     <p className="text-gray-800 leading-9 text-xl font-medium pt-4">
-                      فقط کافیه extension و سایت تحریمی مورد نظرت رو باز کنی با
-                      بهت بگم کی میتونه بازش کنه
+                      فقط کافیه extension و سایت تحریمی مورد نظرت رو باز کنی تا
+                      بهت بگه کدوم DNS میتونه تحریم این سایت رو دور بزنه
                     </p>
                   </div>
                 </div>
@@ -242,7 +242,7 @@ const Home = () => {
           <div className="py-5 text-center">
             <div className="m-7">
               <p className="text-5xl text-[#2dd4bf] py-2">اسپانسرها</p>
-              <a href="https://ganje.host/" target="_blanck">
+              <a href="https://ganje.host/go/403unlocker" target="_blanck">
                 <Image
                   src={ganjeLogo}
                   alt="ganjeLogo"
