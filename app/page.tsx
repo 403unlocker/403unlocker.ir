@@ -66,7 +66,7 @@ const Home = () => {
               </div>
               <div className="flex flex-col md:flex-row justify-center">
                 <Link
-                  href="https://github.com/403unlocker/check403unlocker-be"
+                  href="https://github.com/403unlocker/check403unlocker-ext"
                   target="_blank">
                   <div className="relative bg-teal-400 rounded shadow-lg m-auto my-2 md:m-5 transition transform hover:-translate-y-3 text-center py-10 w-[300px] md:w-[400px]">
                     <ArrowTopLeft className="text-[#101010] size-6 absolute top-4 left-4" />
@@ -211,7 +211,7 @@ const Home = () => {
                 <div className="flex items-center justify-center md:justify-end order-2 md:order-1">
                   <div className=" text-right">
                     <Link
-                      href="https://github.com/403unlocker/check403unlocker"
+                      href="https://github.com/403unlocker/check403unlocker-ext"
                       target="_blank">
                       <h3 className="pt-5 text-black font-black md:text-4xl text-2xl">
                         <span>check403unlocker </span>
