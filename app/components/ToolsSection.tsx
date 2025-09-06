@@ -20,6 +20,15 @@ const tools = [
     isSpecial: true,
   },
   {
+    href: "https://github.com/403unlocker/403unlocker-cli",
+    title: "403unlocker-cli",
+    description:
+      "یک ابزار CLI همه‌کاره برای 403Unlocker شامل قابلیت‌های BestDNS، FastDocker و Check که به صورت یک پکیج کاربردی ارائه شده است.",
+    tags: ["CLI Tool", "All-in-One", "Cross Platform"],
+    icon: <TerminalIcon className="w-8 h-8 text-white" />,
+    isSpecial: false,
+  },
+  {
     href: "https://github.com/403unlocker/check403unlocker-ext",
     title: "check403unlocker",
     description:
@@ -53,15 +62,6 @@ const tools = [
       "اگر هنگام دانلود پکیج‌ها با تحریم مواجه شدید، می‌توانید با تغییر DNS بخشی از این محدودیت‌ها را دور بزنید. این ابزار برای ویندوز در دسترس است.",
     tags: ["Rust", "Windows", "Package Manager"],
     icon: <CodeIcon className="w-8 h-8 text-white" />,
-    isSpecial: false,
-  },
-  {
-    href: "https://github.com/403unlocker/403unlocker-cli",
-    title: "403unlocker-cli",
-    description:
-      "یک ابزار CLI همه‌کاره برای 403Unlocker شامل قابلیت‌های BestDNS، FastDocker و Check که به صورت یک پکیج کاربردی ارائه شده است.",
-    tags: ["CLI Tool", "All-in-One", "Cross Platform"],
-    icon: <TerminalIcon className="w-8 h-8 text-white" />,
     isSpecial: false,
   },
   {
